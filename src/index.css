@@ -1,13 +1,68 @@
+@font-face {
+  font-family: "Tajawal";
+  src: url("https://fonts.googleapis.com/css?family=Tajawal&display=swap");
+}
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Tajawal", sans-serif !important;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  border: 1px solid #f4f4f4 !important;
+  border-radius: 14px !important;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11) !important;
+}
+
+button {
+  min-width: 90px;
+}
+
+.btn-outline-success {
+  border-color: #24a660 !important;
+}
+.btn-outline-success:hover {
+  color: #f4f4f4 !important;
+  background-color: #24a660 !important;
+}
+.btn-outline-success:hover i {
+  color: #f4f4f4 !important;
+}
+
+.section {
+  padding: 80px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.4rem !important;
+  }
+
+  .lead {
+    padding: 10px 0;
+    font-size: 0.9rem !important;
+  }
+}
+.form-group,
+.input-group {
+  margin-bottom: 20px !important;
+}
+
+.input-group-text {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
 }

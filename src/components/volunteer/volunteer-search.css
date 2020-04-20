@@ -1,0 +1,16 @@
+label {
+  position: relative;
+  width: 100%;
+}
+input {
+  height: 45px !important;
+  line-height: 1 !important;
+  padding: 0 10px !important;
+}
+
+.clear {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  cursor: pointer;
+}

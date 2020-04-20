@@ -1,0 +1,29 @@
+.col {
+  line-height: 1;
+}
+i {
+  font-size: 1.4em;
+  color: #777777;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+p {
+  white-space: nowrap;
+  margin: 0 !important;
+}
+.card-text,
+a {
+  color: #424950 !important;
+}
+
+.btn-chat {
+  height: 33px;
+  line-height: 1;
+}
+.btn-chat i {
+  color: #28a745 !important;
+}
