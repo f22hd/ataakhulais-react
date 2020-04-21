@@ -1,5 +1,5 @@
 // const baseUrl = "http://127.0.0.1:8000/api";
-const baseUrl = "https://api.ataakhulais.com/api";
+const baseUrl = "http://ataakhulais-api.allebdi.me/api";
 
 const constants = {
   Headers: {
