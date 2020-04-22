@@ -36,7 +36,7 @@ function SearchForm({ onSearch }) {
 
             {text.length > 0 && (
               <div className="clear" onClick={() => clear()}>
-                <i class="fa fa-close"></i>
+                <i className="fa fa-close"></i>
               </div>
             )}
           </label>

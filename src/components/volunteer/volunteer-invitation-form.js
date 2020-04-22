@@ -46,7 +46,6 @@ function VolunteerInvitationForm({ onHide }) {
       ...data,
       [name]: value,
     });
-    console.log(name, value);
     const msg = validate(name, value);
     setError({ [name]: msg });
   };
@@ -74,7 +73,6 @@ function VolunteerInvitationForm({ onHide }) {
     init();
   }, []);
 
-  console.log(errors);
   return (
     <div>
       <form onSubmit={onSubmit}>

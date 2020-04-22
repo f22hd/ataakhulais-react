@@ -3,9 +3,15 @@ import { getStat } from "../../services/volunteer.service";
 import Stat from "../../components/volunteer/volunteer-stat";
 import constatns from "../../configs/constants";
 
+const initiateStatObj = {
+  count: 0,
+  subTitle: "",
+  text: "",
+};
+
 function VolunteerStatContainer() {
-  const [specialist, setSpecialist] = useState({});
-  const [volunteers, setVolunteers] = useState({});
+  const [specialist, setSpecialist] = useState(initiateStatObj);
+  const [volunteers, setVolunteers] = useState(initiateStatObj);
 
   const loadStat = async () => {
     const res = await getStat();
