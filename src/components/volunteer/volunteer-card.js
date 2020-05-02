@@ -53,7 +53,7 @@ function VolunteerCard({ volunteer }) {
             <div className="col my-auto">
               <button
                 className="btn btn-sm btn-outline-success btn-chat d-flex m-auto py-2"
-                onClick={() => openChat}
+                onClick={() => openChat()}
               >
                 <i className="fa fa-whatsapp  my-auto"></i>
                 <div className="inline-block my-auto">بدء المحادثة</div>
